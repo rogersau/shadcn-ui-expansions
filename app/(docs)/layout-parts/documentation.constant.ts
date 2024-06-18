@@ -8,6 +8,7 @@ interface DocumentationChild {
   label: string;
   value: string;
   url: string;
+  new?: boolean;
 }
 
 export const DOCS: Documentation[] = [
@@ -34,6 +35,12 @@ export const DOCS: Documentation[] = [
       { label: 'Blockquote', value: 'blockquote', url: '/docs/blockquote' },
       { label: 'Datetime Picker', value: 'datetime-picker', url: '/docs/datetime-picker' },
       {
+        label: 'Dual Range Slider',
+        value: 'dual-range-slider',
+        url: '/docs/dual-range-slider',
+        new: true,
+      },
+      {
         label: 'Floating Label Input',
         value: 'floating-label-input',
         url: '/docs/floating-label-input',
@@ -48,6 +55,12 @@ export const DOCS: Documentation[] = [
         label: 'Loading Button',
         value: 'loading-button',
         url: '/docs/loading-button',
+      },
+      {
+        label: 'Progress With Value',
+        value: 'progress-with-value',
+        url: '/docs/progress-with-value',
+        new: true,
       },
       { label: 'Multiple Selector', value: 'multipleSelector', url: '/docs/multiple-selector' },
       { label: 'Spinner', value: 'spinner', url: '/docs/spinner' },
